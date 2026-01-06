@@ -1,0 +1,51 @@
+<script setup>
+  const props = defineProps({
+    url: String,
+    name: String,
+    brand: String,
+    price: Number,
+    sponsored: Boolean
+  })
+</script>
+
+<template>
+    <router-link :to="url" class="result">
+      <div class="image">
+      </div>
+      <span class="name">
+        <span class="brand">{{brand}}</span>
+        {{name}}
+      </span><br/>
+      <span class="price">${{price}}</span><br/>
+      <span v-if="sponsored" class="sponsored">Sponsored</span>
+    </router-link>
+</template>
+
+<style scoped>
+  
+.result {
+  width: 200px;
+  border: 1px solid black;
+  margin: 16px;
+  padding: 16px;
+}
+.result .image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-card-40-17pro-202509_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=WVVFRzUzVk1oblJhbW9PbGNSU25ja3doNjVzb1FWSTVwZWJJYThYTHlrNzQzbUlIR1RvazhDRHNOQlYvM3g2dFIwdkZSSnBZYjhOaHBpM2lkYTFBUEZHTmVoMWFVZloyU3lqdmZCOUFEeDF6K2N6UFd4K21VWHNnbWZBQ3hSanQ');
+  background-size: cover;
+}
+.result .name {
+  width: 100%;
+  font-size: 1rem;
+}
+.result .name .brand {
+  font-weight: bold;
+}
+.result .sponsored {
+  font-style: italic;
+  font-weight: light;
+  font-size: 0.8rem;
+}
+</style>
