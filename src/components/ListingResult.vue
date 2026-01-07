@@ -6,14 +6,17 @@
     price: Number,
     sponsored: Boolean,
     hasFinancing: Boolean,
-    isNew: Boolean,
+    isNew: {
+      type: Boolean,
+      default: true
+    },
     oldPrice: Number,
   })
 </script>
 
 <template>
     <router-link :to="url" class="result">
-      <div v-if="!isNew" class="condition">Refurbished</div>
+      <div v-if="(isNew !== null) && !isNew" class="condition">Refurbished</div>
       <div class="image">
       </div>
       <span class="name">
