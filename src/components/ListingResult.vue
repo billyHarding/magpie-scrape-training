@@ -4,7 +4,8 @@
     name: String,
     brand: String,
     price: Number,
-    sponsored: Boolean
+    sponsored: Boolean,
+    hasFinancing: Boolean,
   })
 </script>
 
@@ -16,13 +17,12 @@
         <span class="brand">{{brand}}</span>
         {{name}}
       </span><br/>
-      <span class="price">${{price}}</span><br/>
+      <span class="price">${{price}}</span><span v-if="hasFinancing" class="monthly-option"> or $20.99 per month</span><br/>
       <span v-if="sponsored" class="sponsored">Sponsored</span>
     </router-link>
 </template>
 
 <style scoped>
-  
 .result {
   width: 200px;
   border: 1px solid black;
@@ -48,4 +48,8 @@
   font-weight: light;
   font-size: 0.8rem;
 }
+  .result .monthly-option {
+    font-style: italic;
+    opacity: 0.5;
+  }
 </style>
