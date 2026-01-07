@@ -7,17 +7,12 @@
   })
   const router = useRouter()
     
-  if (props.query == 'galaxy') {
-    router.push('/redirected')
-  }
-
 </script>
 
 <template>
   <h1>Search results for: {{ query }}</h1>
   <div class = "search-results">
-    <StandardSearchPage v-if="query == 'phone'"></StandardSearchPage>
-    <NoResultsSearchPage v-else></NoResultsSearchPage>
+    <StandardSearchPage></StandardSearchPage>
   </div>
 </template>
 
