@@ -6,11 +6,13 @@
     price: Number,
     sponsored: Boolean,
     hasFinancing: Boolean,
+    isNew: Boolean
   })
 </script>
 
 <template>
     <router-link :to="url" class="result">
+      <div v-if="!isNew" class="condition">Refurbished</div>
       <div class="image">
       </div>
       <span class="name">
@@ -28,6 +30,21 @@
   border: 1px solid black;
   margin: 16px;
   padding: 16px;
+  position: relative;
+}
+.condition {
+  position: absolute;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  top: -15px;
+  right: 0;
+  background-color: #ddd;
+  font-weight: bold;
+  font-style: italic;
 }
 .result .image {
   width: 100%;

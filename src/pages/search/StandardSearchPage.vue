@@ -8,6 +8,7 @@
     "brand": "Apple",
     "sponsored": true,
     "hasFinancing": true,
+    "isNew": true,
   },
   {
     "url": "iphone-15",
@@ -16,6 +17,7 @@
     "brand": "Apple",
     "sponsored": true,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "samsung-galaxy-s24-ultra",
@@ -24,6 +26,7 @@
     "brand": "Samsung",
     "sponsored": true,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "samsung-galaxy-s24",
@@ -32,6 +35,7 @@
     "brand": "Samsung",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": false,
   },
   {
     "url": "google-pixel-8-pro",
@@ -40,6 +44,7 @@
     "brand": "Google",
     "sponsored": false,
     "hasFinancing": true,
+    "isNew": true,
   },
   {
     "url": "google-pixel-8",
@@ -48,6 +53,7 @@
     "brand": "Google",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "oneplus-12",
@@ -56,6 +62,7 @@
     "brand": "OnePlus",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "oneplus-11",
@@ -64,6 +71,7 @@
     "brand": "OnePlus",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "xiaomi-14-pro",
@@ -72,6 +80,7 @@
     "brand": "Xiaomi",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "xiaomi-13",
@@ -80,6 +89,7 @@
     "brand": "Xiaomi",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "sony-xperia-1-v",
@@ -88,6 +98,7 @@
     "brand": "Sony",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "sony-xperia-5-v",
@@ -96,6 +107,7 @@
     "brand": "Sony",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": false,
   },
   {
     "url": "asus-rog-phone-8",
@@ -104,6 +116,7 @@
     "brand": "ASUS",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "samsung-galaxy-z-fold-5",
@@ -112,6 +125,7 @@
     "brand": "Samsung",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "samsung-galaxy-z-flip-5",
@@ -120,6 +134,7 @@
     "brand": "Samsung",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": false,
   },
   {
     "url": "motorola-edge-40-pro",
@@ -128,6 +143,7 @@
     "brand": "Motorola",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "nokia-x30",
@@ -136,6 +152,7 @@
     "brand": "Nokia",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "oppo-find-x6-pro",
@@ -144,6 +161,7 @@
     "brand": "Oppo",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "vivo-x100-pro",
@@ -152,6 +170,7 @@
     "brand": "Vivo",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   },
   {
     "url": "realme-gt-5",
@@ -160,6 +179,7 @@
     "brand": "Realme",
     "sponsored": false,
     "hasFinancing": false,
+    "isNew": true,
   }
 ]
 </script>
