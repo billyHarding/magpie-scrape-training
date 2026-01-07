@@ -4,30 +4,53 @@
     name: String,
     brand: String,
     price: Number,
-    sponsored: Boolean
+    sponsored: Boolean,
+    hasFinancing: Boolean,
+    isNew: Boolean,
+    oldPrice: Number,
   })
 </script>
 
 <template>
     <router-link :to="url" class="result">
+      <div v-if="!isNew" class="condition">Refurbished</div>
       <div class="image">
       </div>
       <span class="name">
         <span class="brand">{{brand}}</span>
         {{name}}
       </span><br/>
-      <span class="price">${{price}}</span><br/>
+      <span class="price">${{price}}</span><span v-if="oldPrice" class="old-price">${{oldPrice}}</span><span v-if="hasFinancing" class="monthly-option"><br/> or $20.99 per month</span><br/>
       <span v-if="sponsored" class="sponsored">Sponsored</span>
     </router-link>
 </template>
 
 <style scoped>
-  
 .result {
   width: 200px;
   border: 1px solid black;
   margin: 16px;
   padding: 16px;
+  position: relative;
+}
+.condition {
+  position: absolute;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  top: -15px;
+  right: 8px;
+  background-color: #ddd;
+  font-weight: bold;
+  font-style: italic;
+}
+.old-price {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 5px;
 }
 .result .image {
   width: 100%;
@@ -47,5 +70,11 @@
   font-style: italic;
   font-weight: light;
   font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
 }
+  .result .monthly-option {
+    font-style: italic;
+    opacity: 0.5;
+  }
 </style>
