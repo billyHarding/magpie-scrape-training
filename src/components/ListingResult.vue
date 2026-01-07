@@ -6,7 +6,8 @@
     price: Number,
     sponsored: Boolean,
     hasFinancing: Boolean,
-    isNew: Boolean
+    isNew: Boolean,
+    oldPrice: Number,
   })
 </script>
 
@@ -19,7 +20,7 @@
         <span class="brand">{{brand}}</span>
         {{name}}
       </span><br/>
-      <span class="price">${{price}}</span><span v-if="hasFinancing" class="monthly-option"> or $20.99 per month</span><br/>
+      <span class="price">${{price}}</span><span v-if="oldPrice" class="old-price">${{oldPrice}}</span><span v-if="hasFinancing" class="monthly-option"><br/> or $20.99 per month</span><br/>
       <span v-if="sponsored" class="sponsored">Sponsored</span>
     </router-link>
 </template>
@@ -41,10 +42,15 @@
   padding-left: 5px;
   padding-right: 5px;
   top: -15px;
-  right: 0;
+  right: 8px;
   background-color: #ddd;
   font-weight: bold;
   font-style: italic;
+}
+.old-price {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 5px;
 }
 .result .image {
   width: 100%;
@@ -64,6 +70,8 @@
   font-style: italic;
   font-weight: light;
   font-size: 0.8rem;
+  position: absolute;
+  bottom: 0;
 }
   .result .monthly-option {
     font-style: italic;
