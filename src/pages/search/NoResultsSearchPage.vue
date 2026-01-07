@@ -1,3 +1,3 @@
 <template>
-  <h1>No results found</h1>
+  <h1 class="search-error">No results found</h1>
 </template>

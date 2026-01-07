@@ -12,7 +12,8 @@
 <template>
   <h1>Search results for: {{ query }}</h1>
   <div class = "search-results">
-    <StandardSearchPage></StandardSearchPage>
+    <NoResultsSearchPage v-if="query == 'ifone'"></NoResultsSearchPage>
+    <StandardSearchPage v-else></StandardSearchPage>
   </div>
 </template>
 
