@@ -11,14 +11,15 @@
       default: true
     },
     oldPrice: Number,
+    thirdParty: String
   })
 </script>
 
 <template>
     <router-link :to="url" class="result">
       <div v-if="(isNew !== null) && !isNew" class="condition">Refurbished</div>
-      <div class="image">
-      </div>
+      <div class="image"></div>
+      <span v-if="thirdParty" class="seller">Sold by {{thirdParty}}<br/></span>
       <span class="name">
         <span class="brand">{{brand}}</span>
         {{name}}
@@ -35,6 +36,9 @@
   margin: 16px;
   padding: 16px;
   position: relative;
+}
+.seller {
+  font-size: 0.6rem;
 }
 .condition {
   position: absolute;

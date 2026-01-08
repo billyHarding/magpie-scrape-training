@@ -10,6 +10,7 @@
     "hasFinancing": true,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": "StickeeSales LTD",
   },
   {
     "url": "iphone-15",
@@ -20,6 +21,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "samsung-galaxy-s24-ultra",
@@ -30,6 +32,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "samsung-galaxy-s24",
@@ -40,6 +43,7 @@
     "hasFinancing": false,
     "isNew": false,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "google-pixel-8-pro",
@@ -50,6 +54,7 @@
     "hasFinancing": true,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "google-pixel-8",
@@ -60,6 +65,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": 800,
+    "thirdParty": null,
   },
   {
     "url": "oneplus-12",
@@ -70,6 +76,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "oneplus-11",
@@ -80,6 +87,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "xiaomi-14-pro",
@@ -90,6 +98,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "xiaomi-13",
@@ -100,6 +109,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": "StickeeSales LTD",
   },
   {
     "url": "sony-xperia-1-v",
@@ -110,6 +120,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": 1250,
+    "thirdParty": null,
   },
   {
     "url": "sony-xperia-5-v",
@@ -120,6 +131,7 @@
     "hasFinancing": false,
     "isNew": false,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "asus-rog-phone-8",
@@ -130,6 +142,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": "OpenMarketplace inc",
   },
   {
     "url": "samsung-galaxy-z-fold-5",
@@ -140,6 +153,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "samsung-galaxy-z-flip-5",
@@ -150,6 +164,7 @@
     "hasFinancing": false,
     "isNew": false,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "motorola-edge-40-pro",
@@ -160,6 +175,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "nokia-x30",
@@ -170,6 +186,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "oppo-find-x6-pro",
@@ -180,6 +197,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": 950,
+    "thirdParty": "ACME inc.",
   },
   {
     "url": "vivo-x100-pro",
@@ -190,6 +208,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   },
   {
     "url": "realme-gt-5",
@@ -200,6 +219,7 @@
     "hasFinancing": false,
     "isNew": true,
     "oldPrice": null,
+    "thirdParty": null,
   }
 ]
 </script>
