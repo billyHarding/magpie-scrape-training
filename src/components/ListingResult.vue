@@ -19,7 +19,7 @@
     <router-link :to="url" class="result">
       <div v-if="(isNew !== null) && !isNew" class="condition">Refurbished</div>
       <div class="image"></div>
-      <span v-if="thirdParty" class="seller">Sold by {{thirdParty}}<br/></span>
+      <span v-if="thirdParty" class="seller">Sold by <a>{{thirdParty}}</a><br/></span>
       <span class="name">
         <span class="brand">{{brand}}</span>
         {{name}}
